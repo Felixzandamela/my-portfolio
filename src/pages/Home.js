@@ -1,10 +1,10 @@
 import React from "react";
-import imgHeader from "./pages/header.jpg"
+
 const Home = () => {
   return (
     <header className="header">
       <div className="header-container">
-        <img src={imgHeader} className="image" alt="header"/>
+        <img src="./header.jpg" className="image" alt="header"/>
       <div>
         <h3 className="heading">Hi, I'm Félix Zamdamela</h3>
         <p className="description"> Welcome to my portfolio, the place where a piece of me is reflected in every detail. I am inspired by you and
