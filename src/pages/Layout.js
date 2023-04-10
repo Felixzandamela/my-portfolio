@@ -5,7 +5,7 @@ class NavBar extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      isToggleOn: false;
+      isToggleOn: false
     }
     this.toggleNav = this.handleClick.bind(this);
   }
@@ -14,8 +14,8 @@ class NavBar extends React.Component {
       isToggleOn: !prevState.isToggleOn
     }));
   }
-  
-  return (
+  render() {
+    return (
     <>
     <nav class="nav">
       <div class="logoCard">
@@ -37,6 +37,7 @@ class NavBar extends React.Component {
     <Outlet />
     </>
   )
+  }
 };
 
 export default Layout;
