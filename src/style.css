@@ -6,7 +6,8 @@
  
 *{ margin: 0; padding: 0; box-sizing: border-box;  scroll-behavior: smooth;}
 body {  margin: 0px; padding: 0; background: #293042; color:#fff; font-family:"Poppins", Tahoma, Sans-Serif;}
-button {border: none; outline: none; font-family: "Poppins", Sans-Serif}
+button {border: none; outline: none; font-family: "Poppins", Sans-Serif; text-size-adjust:14px ;
+  webkit-text-size-adjust: 15px;}
 
 /*** start navbar ***/
 .showShadow{box-shadow:0 0 2px 2px RGBA(0,0,0,0.1);}
