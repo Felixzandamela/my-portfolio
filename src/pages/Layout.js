@@ -23,14 +23,14 @@ class NavBar extends React.Component {
         <div class="logo"></div>
       </div>
       
-      <div onClick={this.handleClick}  id="navmenu"
+      <div onClick={this.toggleNav}  id="navmenu"
       className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
-        <div class="Link"><Link to="/">Home</Link></div>
-        <div class="Link"><Link to="/blogs">Blogs</Link></div>
-        <div class="Link LinkSpacialB"><Link to="/contact">Contact me</Link></div>
+        <div className="Link"><Link to="/">Home</Link></div>
+        <div className="Link"><Link to="/blogs">Blogs</Link></div>
+        <div className="Link LinkSpacialB"><Link to="/contact">Contact me</Link></div>
       </div>
       
-      <div id="btnNav" onClick={this.handleClick} className={this.state.isToggleOn ? "btnNav btnActive " : "btnNav"}>
+      <div id="btnNav" onClick={this.toggleNav} className={this.state.isToggleOn ? "btnNav btnActive " : "btnNav"}>
         <div id="btnLine1"></div>
         <div id="btnLine2"></div>
       </div>
