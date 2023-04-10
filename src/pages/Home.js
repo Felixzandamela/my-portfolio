@@ -36,6 +36,21 @@ const  dataSkills= [
  { name:"Sql", value:83, color:"#00758F"},
  { name:"Firebase", value:79, color:"#FFA611" }
  ]
+ 
+ // Skills  tamplate
+function SkillCard({ skillName, skillValue,  skillColor,
+}){ 
+  return (
+    <div className="p-wrapper">
+      <div class="prog-container">
+        <div  style={{background: `conic-gradient(  ${skillColor} ${skillValue *  3.6}deg,  RGBA(60, 173, 241,0.20) ${skillValue  * 3.6}deg)` }}  class="cir-progress">
+            <div class="v-container">{skillValue}%</div>
+          </div>
+        <h4>{skillName}</h4>
+      </div>
+    </div>
+  )
+}
 
  // get years function 
 const activeYears = (date) => {
