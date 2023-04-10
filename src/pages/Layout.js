@@ -23,8 +23,7 @@ class NavBar extends React.Component {
         <div class="logo"></div>
       </div>
       
-      <div onClick={this.toggleNav}  id="navmenu"
-      className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
+      <div onClick={this.toggleNav}  id="navmenu" className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
         <div className="Link"><Link to="/">Home</Link></div>
         <div className="Link"><Link to="/blogs">Blogs</Link></div>
         <div className="Link LinkSpacialB"><Link to="/contact">Contact me</Link></div>
