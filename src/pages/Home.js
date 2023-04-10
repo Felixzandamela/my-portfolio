@@ -2,6 +2,13 @@ import React from "react";
 
 const Home = () => {
   return (
+    <Header/>
+  )
+};
+
+
+const Header = () =>{
+  return (
     <header className="header">
       <div className="header-container">
         <img src="./header.jpg" className="image" alt="header"/>
@@ -16,9 +23,6 @@ const Home = () => {
       </div>
     </header>
   ) 
-};
-
-
-
+}
 
 export default Home;
