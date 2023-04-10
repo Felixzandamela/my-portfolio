@@ -1,7 +1,20 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
-const Layout = () => {
+class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggleOn: false;
+    }
+    this.toggleNav = this.handleClick.bind(this);
+  }
+  toggleNav(){
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
+  }
+  
   return (
     <>
       <nav>
