@@ -23,7 +23,7 @@ class Layout extends React.Component {
         <div className="logo"></div>
       </div>
       
-      <div onClick={this.toggleNav}  id="navmenu" className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
+      <div   id="navmenu" className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
         <div className="Link"><Link className="a" to="/">Home</Link></div>
         <div className="Link"><Link className="a" to="/blogs">Blogs</Link></div>
         <div className="Link LinkSpecialB"><Link className="a" to="/contact">Contact me</Link></div>
