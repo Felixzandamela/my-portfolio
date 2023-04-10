@@ -45,9 +45,9 @@ function SkillCard({ skillName, skillValue,  skillColor,
 }){ 
   return (
     <div className="p-wrapper">
-      <div class="prog-container">
-        <div  style={{background: `conic-gradient(  ${skillColor} ${skillValue *  3.6}deg,  RGBA(60, 173, 241,0.20) ${skillValue  * 3.6}deg)` }}  class="cir-progress">
-            <div class="v-container">{skillValue}%</div>
+      <div className="prog-container">
+        <div  style={{background: `conic-gradient(  ${skillColor} ${skillValue *     3.6}deg,  RGBA(60, 173, 241,0.20) ${skillValue  * 3.6}deg)` }}  className="cir-progress">
+            <div className="v-container">{skillValue}%</div>
           </div>
         <h4>{skillName}</h4>
       </div>
@@ -75,7 +75,7 @@ const Skills = ()=>{
          I'm a fullstack Web  applicatons developer based in Mozambique with over {yearsOffWork} years of experience in:
          </p>
       </div>
-      <div class="flex-wrap-center">
+      <div className="flex-wrap-center">
        {dataSkills.map(skill => (
           <SkillCard
             skillName={skill.name}
