@@ -25,6 +25,18 @@ const Header = () =>{
   ) 
 }
 
+
+const  dataSkills= [
+{ name:"Javascript", value:78,  color:"#f1dc4e" },
+ { name:"Node Js", value:89, color:"#83cd29" },
+ { name:"MongoDB", value:97, color:"#4faa41" },
+ { name:"React Js", value:62, color:"#00d9ff" },
+ { name:"Html", value:99, color:"#e34c26"},
+ { name:"Css", value:88, color:"#264de4" },
+ { name:"Sql", value:83, color:"#00758F"},
+ { name:"Firebase", value:79, color:"#FFA611" }
+ ]
+
  // get years function 
 const activeYears = (date) => {
  let time = (new Date()).getTime() - date.getTime(); 
