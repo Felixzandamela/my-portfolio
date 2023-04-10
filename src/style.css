@@ -57,3 +57,27 @@ webkit-justify-content: center; }
  .header-container {flex-direction: row; text-align: left;} .header{  min-height: 550px;  text-align: left; }
 }
 /***end of header***/
+
+
+/** section style **/
+.sec{ display: flex; align-items: center; justify-content: center; width: 100%; padding:20px; }
+.sec-container{max-width:800px;} .sec-header{padding: 15px 25px;}
+.sec-header .title{ font-size: 18px; margin: 10px 0;line-height: 1.4; font-weight: 500;}
+.sec-header span{ color: #3CADF1;}
+.sec-header{ font-weight: 400;color: #ECEFF1;  line-height: 1.6;  font-size: 16px;  text-align: center;
+} .sec-wrap{ padding: 20px;}
+.flex-wrap-center{display: flex;  flex-wrap: wrap; webkit-flex-wrap: flex-wrap;justify-content: center webkit-justify-content: center;
+}
+/** end of section style **/
+
+
+/** skills **/
+.p-wrapper{ width:50% ;   padding:10px; } 
+.prog-container { background: RGBA(60, 173, 241,0.20); position: relative; display: -ms-grid; padding:15px; display: grid; place-items: center; border-radius: 10px; }
+.cir-progress {  position: relative; display: grid;  place-items: center;   height: 70px;   width: 70px;  border-radius: 50%; }     
+ .cir-progress:before {  content: "";position: absolute;  height: 82%; width: 82%;   background: #0B0F16;   border-radius: 50%;   }  .v-container {   position: relative;   font-weight:600;   font-size: 14px;   color: #fff;
+}
+@media screen and (min-width:564px){
+  .p-wrapper{ width:25%}
+}
+/** end of skills **/
