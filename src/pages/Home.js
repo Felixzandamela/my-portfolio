@@ -113,10 +113,10 @@ function FeatureCard({ featureTitle,featuresIcon, featureText
 }){ 
   return (
     <div className="featuresCard">
-      <div class="featuresIcon">
-        <i class={featuresIcon}></i>
+      <div className="featuresIcon">
+        <i className={featuresIcon}></i>
         </div>
-        <div class="featuresBody">
+        <div className="featuresBody">
         <h4>{featureTitle}</h4>
         <p>{featureText}</p>
       </div>
