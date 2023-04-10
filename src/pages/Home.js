@@ -91,4 +91,21 @@ const Skills = ()=>{
 }
 
 
+const dataFeatues = [
+ { featureTitle: 'Experienced and proficient',
+    featureIcon: "bi bi-columns-gap",
+    featureText:'I have been in the industry since my adulthood and have collaborated with a number of local and international agencies in the field.'
+  },
+  {
+    featureTitle: 'Creative and innovative',
+    featureIcon: 'bi bi-terminal-plus',
+    featureText:'Quality and creative approach to each client is my lowest priority. I promise a responsive, interactive and unique website to all my clients.'
+  }, 
+  { featureTitle:'Reliable and responsible',
+    featureIcon: 'bi bi-heart',
+    featureText:'I guarantee that the money you paid will serve your purpose and the results will exceed your expectations. Your trust is the key to my work.'
+  }
+  ]
+
+
 export default Home;
