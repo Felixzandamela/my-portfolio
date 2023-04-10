@@ -16,14 +16,6 @@ class Layout extends React.Component {
   }
   render() {
     return (
-     <Header/>
-    )
-  }
-} 
-
-
-const Header = ()=>{
-  return (
     <>
     <nav className="nav">
       <div className="logoCard">
@@ -45,7 +37,7 @@ const Header = ()=>{
     <Outlet />
     </>
   )
+  }
 }
-
 
 export default Layout;
