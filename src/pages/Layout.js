@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
 
-class NavBar extends React.Component {
+class Layout extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -38,6 +38,6 @@ class NavBar extends React.Component {
     </>
   )
   }
-};
+}
 
 export default Layout;
