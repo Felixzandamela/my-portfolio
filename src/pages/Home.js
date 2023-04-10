@@ -106,6 +106,46 @@ const dataFeatues = [
     featureText:'I guarantee that the money you paid will serve your purpose and the results will exceed your expectations. Your trust is the key to my work.'
   }
   ]
+  
+  // Features  tamplate
+function FeatureCard({ featureTitle,featuresIcon, featureText
+}){ 
+  return (
+    <div className="featuresCard">
+      <div class="featuresIcon">
+        <i class={featuresIcon}></i>
+        </div>
+        <div class="featuresBody">
+        <h4>{featureTitle}</h4>
+        <p>{featureText}</p>
+      </div>
+    </div>
+  )
+} 
+
+ // Features  component
+const Features = ()=>{
+  return(
+    <section className="sec sec-feactues">
+      <div className="sec-container">
+        <div className="sec-header">
+          <h2 className="title">Why people <span> choose </span> me?</h2>
+          <p className="featuresubheader">A few words about why they choose me and my services. Find out more by checking my customer reviews.</p>
+        </div>
+        <div className="flex-wrap-center">
+        {dataFeatues.map(feature => (
+          <FeatureCard 
+            featuresIcon={feature.featureIcon}
+            key={feature.featureTitle}
+            featureTitle={feature.featureTitle}
+            featureText={feature.featureText}
+          />
+         ))}
+        </div>
+      </div>
+    </section>
+  )
+}
 
 
 export default Home;
