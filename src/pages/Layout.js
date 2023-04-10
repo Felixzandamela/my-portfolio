@@ -19,7 +19,7 @@ class Layout extends React.Component {
     <>
     <nav className="nav">
       <div className="logoCard">
-        <img width="45px" class="logo" src="https://i.imgur.com/9sziRVt.png" alt="Logo"/>
+        <img width="45px" className="logo" src="https://i.imgur.com/9sziRVt.png" alt="Logo"/>
         <div className="logo"></div>
       </div>
       
