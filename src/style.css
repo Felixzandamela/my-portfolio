@@ -10,7 +10,7 @@ body {  margin: 0px; padding: 0; background: #293042; color:#fff; font-family:"P
 
 /*** start navbar ***/
 .showShadow{box-shadow:0 0 2px 2px RGBA(0,0,0,0.1);}
-.Link{color: currentColor; text-decoration: none;}
+.a{color: currentColor; text-decoration: none;}
 .nav{background: #0B0F16; align-items: center; width: 100%; z-index: 100; color:#fff; height: 70px;  padding: 0 20px; position: fixed; justify-content: space-between;  webkit-justify-content: space-between;}
 .logoCard{ height: 50px;  align-items: center;}
 .logo{ font-weight: 700; color:#fff;}
