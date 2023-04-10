@@ -17,21 +17,25 @@ class NavBar extends React.Component {
   
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/blogs">Blogs</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <Outlet />
+    <nav class="nav">
+      <div class="logoCard">
+        <img width="45px" class="logo" src="https://i.imgur.com/9sziRVt.png" alt="Logo"/>
+        <div class="logo"></div>
+      </div>
+      
+      <div onClick={this.handleClick}  id="navmenu"
+      className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
+        <div class="Link"><Link to="/">Home</Link></div>
+        <div class="Link"><Link to="/blogs">Blogs</Link></div>
+        <div class="Link LinkSpacialB"><Link to="/contact">Contact me</Link></div>
+      </div>
+      
+      <div id="btnNav" onClick={this.handleClick} className={this.state.isToggleOn ? "btnNav btnActive " : "btnNav"}>
+        <div id="btnLine1"></div>
+        <div id="btnLine2"></div>
+      </div>
+    </nav>
+    <Outlet />
     </>
   )
 };
