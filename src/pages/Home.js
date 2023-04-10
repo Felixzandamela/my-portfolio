@@ -2,14 +2,6 @@ import React from "react";
 //import imgHeader from "./assets/header.jpg"
 const Home = () => {
   return (
-    <Header/>
-    );
-};
-
-
-// Header  component
-const Header = ()=>{
-  return (
     <header className="header">
       <div className="header-container">
         <img src="./assets/header.jpg" className="image" alt="header"/>
@@ -24,6 +16,9 @@ const Header = ()=>{
       </div>
     </header>
   ) 
-}
+};
+
+
+
 
 export default Home;
