@@ -55,7 +55,7 @@ webkit-justify-content: center; }
 @media screen and (min-width:768px) { 
   .header-button{ margin-top:20px} .image{  order: 1;  width: 70%;   max-width: 350px;  align-self:center;
  display: inline;  margin-left: 20px; } .description {  font-size: 18px; margin-right: 20px; max-width: 300px;   }.heading{  font-size: 2em; }
- .header-container {flex-direction: row; text-align: left;} .header{  min-height: 550px;  text-align: left; }
+ .header-container {flex-direction: row; text-align: left; max-width:800px;} .header{min-height: 550px;  text-align: left; }
 }
 /***end of header***/
 
