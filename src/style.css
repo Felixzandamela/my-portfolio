@@ -80,3 +80,21 @@ webkit-justify-content: center; }
   .p-wrapper{ width:25%;}
 }
 /** end of skills **/
+
+/** features **/
+.featuresCard{ display: flex;  padding: 20px;  width: 100%;} 
+.featuresIcon{  min-width: 40px; height:40px;  display: flex;  justify-content: center;  align-items: center;   webkit-justify-content: center;  margin: 0 5px;  border-radius: 10px;  webkit-border-radius: 10px;  background: RGBA(60, 173, 241,0.9);
+}
+
+.featuresBody{margin-left:10px;}
+.featuresBody p{ margin: 10px 0;  font-size: 14px; line-height: 1.6;  color:#ECEFF1;}
+@media screen and (min-width:768px){
+  .featuresCard{width: 33.3%; }
+  .sec-features{ padding: 30px 100px; }.featuresContainer{  padding:0 60px ;  }
+}
+
+.sec-feactues{
+  padding: 30px 0;
+  background:RGBA(122, 131, 248,0.10);
+}
+/* features css end*/
