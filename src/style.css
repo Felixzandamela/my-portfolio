@@ -78,6 +78,6 @@ webkit-justify-content: center; }
  .cir-progress:before {  content: "";position: absolute;  height: 82%; width: 82%;   background: #0B0F16;   border-radius: 50%;   }  .v-container {   position: relative;   font-weight:600;   font-size: 14px;   color: #fff;
 }
 @media screen and (min-width:564px){
-  .p-wrapper{ width:25%}
+  .p-wrapper{ width:25%;}
 }
 /** end of skills **/
