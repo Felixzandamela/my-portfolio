@@ -32,6 +32,7 @@ body {  margin: 0px; padding: 0; background: #293042; color:#fff; font-family:"P
 
 @media screen and (min-width: 768px){
   .btnNav{display:none; } .navmenu{  padding: 0;  display: flex!important;  height: max-content;  position:static!important;   width: max-content;  background: none;  }
+  .nav{ padding: 0 30px!important;}
   .navmenu .Link{   border-radius: 6px ;   padding: 10px;
     webkit-border-radius: 6px;   margin: 2px; }
   .navmenu .LinkSpecialB{  border:solid 1 #eee;  width:100px;  }
