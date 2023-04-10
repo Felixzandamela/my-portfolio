@@ -17,10 +17,10 @@ class Layout extends React.Component {
   render() {
     return (
     <>
-    <nav class="nav">
-      <div class="logoCard">
+    <nav className="nav">
+      <div className="logoCard">
         <img width="45px" class="logo" src="https://i.imgur.com/9sziRVt.png" alt="Logo"/>
-        <div class="logo"></div>
+        <div className="logo"></div>
       </div>
       
       <div onClick={this.toggleNav}  id="navmenu" className={this.state.isToggleOn ? "navmenu menuShow" : "navmenu menuHide"}> 
