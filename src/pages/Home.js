@@ -1,5 +1,5 @@
 import React from "react";
-import imgHeader from "./assets/header"
+import imgHeader from "./assets/header.jpg"
 const Home = () => {
   return (
     <Header/>
